@@ -1,0 +1,18 @@
+</main>
+<footer class="kalvi-footer no-print">
+  <div class="container">
+    <div class="row gy-3 align-items-center">
+      <div class="col-lg-5"><div class="kalvi-logo text-white"><img src="${ctx}/images/logo.svg" width="34" height="34" alt=""><span><strong>KALVI</strong><small>Education &bull; Career &bull; Future</small></span></div></div>
+      <div class="col-lg-7 small text-white-50"><i class="fa-solid fa-circle-info me-1"></i><fmt:message key="footer.demo"/></div>
+    </div>
+    <hr class="border-secondary-subtle my-3">
+    <div class="d-flex flex-wrap justify-content-between small text-white-50">
+      <span>&copy; Kalvi &ndash; Advanced Java mini project</span>
+      <span><a href="${ctx}/courses">Courses</a> &middot; <a href="${ctx}/exams">Exams</a> &middot; <a href="${ctx}/libraries"><fmt:message key="nav.libraries"/></a> &middot; <a href="${ctx}/admin/login">Admin</a></span>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="${ctx}/js/kalvi.js"></script>
+</body>
+</html>
